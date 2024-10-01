@@ -1,0 +1,11 @@
+/* 
+@media only screen and (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .navbar nav ul {
+        flex-direction: column;
+    }
+} */
