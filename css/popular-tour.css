@@ -9,7 +9,7 @@
 }
 
 .popular-text {
-    padding: 20px;
+    padding: 25px;
 }
 
 .popular-image {
@@ -38,4 +38,16 @@
 .popular-image img {
     width: 100%;
     height: auto;
+}
+
+
+/* Media Query for Small Device */
+
+@media only screen and (max-width: 768px) {
+    .popular-tour {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .popular-image {
+        margin-top: -50px;
+    }
 }
