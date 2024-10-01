@@ -15,3 +15,18 @@
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+    .navigation {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .navbar nav ul {
+        flex-direction: column;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .selection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
