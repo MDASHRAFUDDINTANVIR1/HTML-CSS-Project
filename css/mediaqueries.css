@@ -1,4 +1,4 @@
-/* 
+
 @media only screen and (max-width: 768px) {
     .navigation {
         flex-direction: column;
@@ -7,5 +7,11 @@
     }
     .navbar nav ul {
         flex-direction: column;
+        margin-bottom: 30px;
+        align-items: center;
     }
-} */
+    .selection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
