@@ -1,0 +1,41 @@
+
+
+.popular-tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+.popular-text {
+    padding: 20px;
+}
+
+.popular-image {
+    padding: 25px;
+}
+
+.popular-text h2 {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.popular-text p {
+    margin-bottom: 20px;
+    line-height: 3rem;
+}
+
+.popular-text ul li {
+    margin-left: 20px;
+    line-height: 3rem;
+}
+
+.popular-text ul {
+    margin-bottom: 20px;
+}
+
+.popular-image img {
+    width: 100%;
+    height: auto;
+}
