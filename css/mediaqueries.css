@@ -13,7 +13,9 @@
     .selection {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .popular-tour {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 }
 
