@@ -1,0 +1,45 @@
+
+
+.about-article {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.about-article h2 {
+    margin-bottom: 30px;
+}
+
+.about-article p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "about-content1 about-content2"
+    ". about-content2"
+    ;
+    gap: 30px;
+
+}
+
+.about-content1 {
+    grid-area: about-content1;
+}
+.grid-content2 {
+    grid-area: about-content2;
+}
+.grid-content3 {
+    grid-area: about-content3;
+    justify-self: center;
+}
+
+.about-content-no {
+    padding: 2.5rem;
+
+}
+
+
+
