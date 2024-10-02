@@ -16,30 +16,25 @@
 
 .about-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "about-content1 about-content2"
-    ". about-content2"
-    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .about-content1 {
-    grid-area: about-content1;
-}
-.grid-content2 {
-    grid-area: about-content2;
-}
-.grid-content3 {
-    grid-area: about-content3;
-    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
-.about-content-no {
-    padding: 2.5rem;
-
+.about-content2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
 }
 
-
-
+.about-content3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
