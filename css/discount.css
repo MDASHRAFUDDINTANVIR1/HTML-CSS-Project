@@ -3,6 +3,7 @@
 
 .discount {
     margin-bottom: 6rem;
+    width: 100%;
 }
 
 .discount-article {
@@ -29,8 +30,6 @@
     padding: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
     border-radius: 1rem;
     display: flex;
     justify-content: end;
@@ -41,8 +40,6 @@
     padding: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
     border-radius: 1rem;
     display: flex;
     justify-content: start;
@@ -53,8 +50,6 @@
     padding: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
     border-radius: 1rem;
     display: flex;
     justify-content: end;
@@ -121,4 +116,18 @@
     border: 1px solid var(--orange);
     cursor: pointer;
     transition: 0.7s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .dis-content1, .dis-content2, .dis-content3 {
+        width: 70%;
+        padding: 2rem;
+    }
+    .discount-content1, .discount-content2, .discount-content3 {
+        padding: 8rem 4rem;
+        justify-content: center;
+    }
+
+
 }
