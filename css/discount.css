@@ -125,9 +125,7 @@
         padding: 2rem;
     }
     .discount-content1, .discount-content2, .discount-content3 {
-        padding: 8rem 4rem;
+        padding: 8rem 2rem;
         justify-content: center;
     }
-
-
 }
