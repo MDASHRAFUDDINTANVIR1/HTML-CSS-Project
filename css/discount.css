@@ -1,2 +1,124 @@
 
 
+
+.discount {
+    margin-bottom: 6rem;
+}
+
+.discount-article {
+    text-align: center;
+}
+
+.discount-article h2 {
+    margin-bottom: 2rem;
+}
+
+.discount-article p {
+    width: 80%;
+    margin: 0 auto 3rem auto;
+}
+.discount-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+}
+
+.discount-content1 {
+    /* background-color: yellow; */
+    background: url('/assets/tour\ place\ 1.png');
+    padding: 4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.discount-content2 {
+    background: url('/assets/tour\ place\ 2.png');
+    padding: 4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: start;
+}
+
+.discount-content3 {
+    background: url('/assets/tour\ place\ 1.png');
+    padding: 4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.dis-content1, .dis-content2, .dis-content3 {
+    padding: 4rem;
+    width: 40%;
+    border-radius: 1.6rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.dis ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+    align-items: center;
+}
+
+.dis ul li i {
+    color: orangered;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+.dis h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1.6rem;
+}
+
+.dis p {
+    margin-bottom: 1.6rem;
+}
+
+.dis h4 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1.6rem;
+}
+
+.dis button {
+    background-color: var(--orange);
+    border: none;
+    padding: 1.5rem 2rem;
+    border-radius: 0.7rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
+}
+
+.dis button:hover {
+    background-color: whitesmoke;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    cursor: pointer;
+    transition: 0.7s;
+}
