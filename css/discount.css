@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 3rem;
+    margin-bottom: 3rem;
 }
 
 .discount-content1 {
@@ -118,6 +119,30 @@
     transition: 0.7s;
 }
 
+.discount-offer {
+    text-align: center;
+}
+
+.discount-offer button {
+    background-color: var(--orange);
+    color: whitesmoke;
+    font-size: 1.8rem;
+    border-radius: 0.8rem;
+    padding: 1.5rem 2rem;
+    border: none;
+}
+
+.discount-offer a {
+    text-decoration: none;
+}
+
+.discount-offer button:hover {
+    background-color: aliceblue;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    cursor: pointer;
+    transition: 0.6s;
+}
 
 @media only screen and (max-width: 768px) {
     .dis-content1, .dis-content2, .dis-content3 {
