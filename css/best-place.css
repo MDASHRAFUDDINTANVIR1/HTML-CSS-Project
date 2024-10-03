@@ -71,5 +71,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    
+    .best-place {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
