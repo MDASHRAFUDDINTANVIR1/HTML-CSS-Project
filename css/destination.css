@@ -2,16 +2,15 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 6rem;
-
 }
 
 .destination-text h2{
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .destination-text p {
     width: 70%;
-    margin: 0 auto 35px auto;
+    margin: 0 auto 2rem auto;
 }
 
 
@@ -75,6 +74,14 @@
     .choose1 , .choose2, .choose3, .choose4, .choose5, .choose6, .choose7 {
         grid-column-start: 1;
         grid-column-end: 5;
+    }
+    .destination-text h2{
+        font-size: 3rem;
+    }
+    
+    .destination-text p {
+        width: 90%;
+        margin: 0 auto 2rem auto;
     }
 
 

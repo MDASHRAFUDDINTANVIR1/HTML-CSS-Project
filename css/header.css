@@ -164,7 +164,7 @@ header {
     }
     .selection {
         grid-template-columns: repeat(1, 1fr);
-        padding: 2rem;
+        padding: 4rem;
     }
     .selection select {
         width: 100%;

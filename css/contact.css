@@ -7,7 +7,6 @@
     align-items: center;
     gap: 3rem;
     margin: 8rem 0;
-
 }
 
 
@@ -50,6 +49,14 @@
     background-color: var(--orange);
     color: whitesmoke;
     border-radius: 0.8rem;
+}
+
+.c-content1 input:last-child:hover {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    background-color: whitesmoke;
+    transition: 0.6s;
+    cursor: pointer;
 }
 
 .c-content2 {

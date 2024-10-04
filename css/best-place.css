@@ -1,7 +1,5 @@
-
-
 .best-place {
-    margin: 3rem auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-evenly;
@@ -33,6 +31,7 @@
 .best1 ul li {
     margin-bottom: 0.5rem;
 }
+
 .best1 a {
     text-decoration: none;
     background-color: var(--orange);
@@ -41,6 +40,7 @@
     border-radius: 0.7rem;
     font-size: 1.6rem;
 }
+
 .best1 a:hover {
     background-color: aliceblue;
     color: var(--orange);
@@ -73,5 +73,14 @@
 @media only screen and (max-width: 768px) {
     .best-place {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .best1 {
+        width: 90%;
+    }
+    
+    .best1 h2 {
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        font-weight: 800;
     }
 }

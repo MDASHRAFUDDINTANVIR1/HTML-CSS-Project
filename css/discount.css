@@ -1,6 +1,3 @@
-
-
-
 .discount {
     margin-bottom: 6rem;
     width: 100%;
@@ -153,4 +150,27 @@
         padding: 8rem 2rem;
         justify-content: center;
     }
+    .discount-article h2 {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    .discount-article p {
+        width: 90%;
+        margin: 0 auto 2rem auto;
+    }
+    .dis ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 1.6rem;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .dis ul li i {
+        color: orangered;
+        font-size: 1.8rem;
+    }
+    
 }

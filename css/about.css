@@ -78,6 +78,20 @@
         grid-column-start: 1;
         grid-column-end: 5;
     }
+    .about-article {
+        text-align: center;
+        margin: 2rem auto;
+    }
+    
+    .about-article h2 {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    
+    .about-article p {
+        width: 94%;
+        margin: 0 auto;
+    }
 }
 
 
