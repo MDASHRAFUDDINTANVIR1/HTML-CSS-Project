@@ -38,7 +38,7 @@
 
 .c-content1 input {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
     border: none;
     background: rgba(19, 19, 24, 0.05);
     padding: 1.5rem 2rem;
@@ -98,7 +98,15 @@
 
 @media only screen and (max-width: 768px) {
     .contact {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+    }
+    .c-content2-text {
+        position: absolute;
+        top: 60%;
+        left: 20%;
     }
     
 }
