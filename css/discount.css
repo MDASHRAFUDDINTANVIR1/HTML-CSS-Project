@@ -27,7 +27,7 @@
 
 .discount-content1 {
     /* background-color: yellow; */
-    background: url('/assets/tourplace1.png');
+    background: url('../assets/tourplace1.png');
     padding: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 }
 
 .discount-content2 {
-    background: url('/assets/tourplace2.png');
+    background: url('../assets/tourplace2.png');
     padding: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 }
 
 .discount-content3 {
-    background: url('/assets/tourplace1.png');
+    background: url('../assets/tourplace1.png');
     padding: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
