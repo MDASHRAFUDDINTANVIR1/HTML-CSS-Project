@@ -172,6 +172,9 @@ header {
     .popular-tour {
         grid-template-columns: repeat(1, 1fr);
     }
+    .video-player {
+        height: 95vh;
+    }
 
 }
 
